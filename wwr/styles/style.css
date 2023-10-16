@@ -122,3 +122,8 @@ footer .social img {
 .card-img {
     border: 10px solid #0E2743;
 }
+#hero {
+    margin-bottom: 100px;
+    border: 1px solid #747C92;
+    padding-bottom: 40px;
+}
