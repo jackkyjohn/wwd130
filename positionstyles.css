@@ -123,60 +123,73 @@ position: relative;
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+  grid-template-columns: repeat(auto-fill, minmax(5, 1fr))
 }
-.red5 { 
-  width: 100%; 
-  height: 100px; 
-  background-color: red; 
-} 
-.green5 { 
-  width: 200px; 
-  height: 200px; 
+
+.red5 {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.green5 {
+  width: 200px;
+  height: 200px;
   background-color: green;
-  float: left;
-} 
+}
+
 .yellow5 {
-  width: 100px; 
-  height: 50px; 
   background-color: gold;
+  color: black;
   justify-content: flex-start;
-} 
+  float: left;
+}
+
 .blue5 {
-  width: 100%; 
-  height: 100px; 
-  background-color: blue; 
-} 
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+ 
 /* Activity 6 styles */ 
 .content6 {
-  /* This is the parent of the activity 6 boxes. */
   height: 400px;
   display: grid;
-  grid-template-columns: repeat(6 1fr);
-  grid-template-rows: repeat(6 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 10px;
+  background-size: cover;
+  background-position: center;
 }
 
 .red6 {
-  grid-column: 1/ span 2;
-  grid-row: ; 
-  background-color: red; 
-} 
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 6;
+  background-color: red;
+  z-index: 1;
+}
 
-.green6 { 
-  grid-row: 5/ span 6;
-  background-color: green; 
-} 
+.green6 {
+  grid-column: 8 / span 4;
+  grid-row: 10 / span 3;
+  background-color: green;
+  z-index: 3;
+}
 
 .yellow6 {
-  width: 100px; 
-  height: 200px; 
-  background-color: gold; 
-} 
+  grid-column: 10 / span 2;
+  grid-row: 7 / span 6;
+  background-color: gold;
+  z-index: 4;
+}
 
 .blue6 {
-  width: 200px; 
-  height: 100px; 
-  background-color: blue; 
+  grid-column: 5 / span 6;
+  grid-row: 7 / span 6;
+  background-color: blue;
+  z-index: 2;
 }
+
 
 
 /* Do not make any changes below here */
