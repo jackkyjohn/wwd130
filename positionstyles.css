@@ -151,41 +151,40 @@ position: relative;
  
 /* Activity 6 styles */ 
 .content6 {
-  height: 400px;
+  height: 600px;
+  width: 600px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  gap: 10px;
-  background-size: cover;
-  background-position: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .red6 {
   grid-column: 1 / span 4;
-  grid-row: 1 / span 6;
+  grid-row: 1 / span 2;
   background-color: red;
-  z-index: 1;
+  z-index: -1;
 }
 
 .green6 {
-  grid-column: 8 / span 4;
-  grid-row: 10 / span 3;
+
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 6;
   background-color: green;
-  z-index: 3;
+  z-index: 2;
 }
 
 .yellow6 {
-  grid-column: 10 / span 2;
-  grid-row: 7 / span 6;
+  grid-column: 5 / span 6;
+  grid-row: 3 / span 6;
   background-color: gold;
-  z-index: 4;
+  z-index: 2;
 }
 
 .blue6 {
-  grid-column: 5 / span 6;
-  grid-row: 7 / span 6;
+  grid-column: 2 / span 4;
+  grid-row: 2/ span 4;
   background-color: blue;
-  z-index: 2;
+  z-index: 1;
 }
 
 
