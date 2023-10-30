@@ -48,7 +48,7 @@ nav a {
 }
 #hero-msg h1 {
     text-align: center;
-    color: #0E2743;
+    color: aliceblue;
 }
 #hero-msg h4 {
     text-align: center;
@@ -125,14 +125,14 @@ h4 {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #747C92;
 }
 .msg h2 {
-    color: #0E2743;
+    color: #fcfcfe;
     font-family: 'Cormorant SC', sans-serif, Arial, Helvetica;
 }
 .msg p {
-    color: #747C92;
+    color: aliceblue;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -150,7 +150,7 @@ h4 {
     width: 100%;
     border: 5px solid #0E2743;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #747C92;
 }
 .card-img:hover {
     opacity: .6;
@@ -159,26 +159,26 @@ h4 {
 
 
 
-.river-card {
-    
+.rivers-card {
+    margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 .camping-card {
-    
+    margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 .rapids-card {
-
+    margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.mountains {
+.rapid_waves {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #747C92;
 }
 
 
@@ -210,6 +210,9 @@ footer .social img {
 
 
 @media screen and (max-width: 900px) {
+    header {
+        background-color: #747C92;
+    }
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -227,12 +230,15 @@ footer .social img {
     #hero-msg {
         margin-top: 0;
     }
+    #hero-msg h1 {
+        color: #0E2743;
+    }
     #hero-msg h4 {
         display: none;
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #747C92;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
@@ -241,7 +247,7 @@ footer .social img {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .rapid_waves, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
@@ -250,6 +256,3 @@ footer .social img {
         margin-top: 25px;
     }
 }
-/**margin-bottom: 100px;
-padding-bottom: 40px;
-margin: 200px 0;**/
