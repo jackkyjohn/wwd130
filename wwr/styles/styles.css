@@ -255,3 +255,19 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+
+/** CSS style for About Us page**/
+
+#hero-msg1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 150px;
+}
+
+.home-title1 {
+    color: aliceblue;
+    font-family: 'Cormorant SC', 'Times New Roman', Times;
+    font-size: 2em;
+    margin-top: 10px;
+}
