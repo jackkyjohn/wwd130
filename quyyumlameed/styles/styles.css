@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&display=swap");
+
+:root {
+    --primary-color: #02162B;
+    --secondary-color: #00283A;
+    --accent1-color: #DEDEE0;
+    --accent2-color: #FCFCFE;
+
+    --heading-font: Lekton;
+    --paragraph-font: Lekton, Helvetica, sans-serif;
+  
+
+    --headline-color-on-white: #02162B;
+    --headline-color-on-color: #FCFCFE;
+    --paragraph-color-on-white: #02162B;
+    --paragraph-color-on-color: #FCFCFE;
+    --paragraph-background-color: #02162B;
+    --nav-link-color: #DEDEE0;
+    --nav-background-color: #00283A;
+    --nav-hover-link-color: #70BA65;
+    --nav-hover-background-color: #00283A;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #00283A;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #00283A;
+    color: #70BA65;
+}
+nav a {
+    text-align: center;
+    color: #DEDEE0;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+footer {
+    background-color: #00283A;
+    color: #DEDEE0;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #DEDEE0;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #70BA65;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1em;
+}
+footer p:hover {
+    text-decoration: solid;
+}
+footer .social img {
+    padding-top: 15px;
+}
