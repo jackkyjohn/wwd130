@@ -271,3 +271,11 @@ footer .social img {
     font-size: 2em;
     margin-top: 10px;
 }
+.home-grid1 {
+    display: grid;
+    grid-template-columns: repeat(1fr 3fr 1fr);
+}
+.raft {
+    margin: 40px;
+    grid-column: 3/8;
+}
