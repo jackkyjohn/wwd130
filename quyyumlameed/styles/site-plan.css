@@ -152,7 +152,7 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-resume {
+.sm-contact {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
@@ -176,6 +176,11 @@ nav a:hover {
 }
 
 main img {
-  max-width: 100px;
-  max-height: 100px;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+main div img {
+  width: auto;
+  height: auto;
 }

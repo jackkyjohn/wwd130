@@ -271,11 +271,21 @@ footer .social img {
     font-size: 2em;
     margin-top: 10px;
 }
+
 .home-grid1 {
     display: grid;
     grid-template-columns: repeat(1fr 3fr 1fr);
 }
+
 .raft {
     margin: 40px;
-    grid-column: 3/8;
 }
+.rafting{
+    grid-column: 2/4;
+}
+
+raft_text {
+    margin: 10px auto;
+    grid-column: 2/4;
+}
+

@@ -20,6 +20,9 @@
     --nav-hover-link-color: #70BA65;
     --nav-hover-background-color: #00283A;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     display: grid;
