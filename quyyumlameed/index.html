@@ -1,40 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quyyum Lameed | Home</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.png" alt="Portfolio Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-            <a href="site-plan.html">Site Plan</a>
-        </nav>
-    </header>
-    <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    </main>
-    <footer>
-        <p>Portfolio Website, 2023 - Quyyum Lameed</p>
-        <p><a href="porfolio.html">Porfolio</a></p>
-        <p><a href="contact.html">Contact</a></p>
-        <div class="socail">
-            <a href="https://github.com" target="_blank">
-                <img src="images/git.png" alt="github icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://stackoverflow.com" target="_blank">
-                <img src="images/stackoverflow.png" alt="stackoverflow icon">
-            </a>
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <title>Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Quyyum Lameed</h1>
+      <ul class="navigation">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="images/img.jpg"
+        alt="hero img"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I'm a passionate web developer with a knack for creating stunning and functional websites. With a blend of creativity and technical expertise, I strive to bring ideas to life through clean and efficient code.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I specialize in creating responsive and user-friendly websites that not only look great but also deliver seamless functionality. From simple landing pages to complex web applications, I believe in delivering clean, efficient, and scalable code that ensures optimal performance across all devices and browsers.
+      </p>
+      <p>
+        Collaboration is at the heart of my work philosophy. I enjoy working closely with clients and fellow developers to understand their unique needs and bring their visions to life. By combining my technical expertise with effective communication, I strive to exceed expectations and deliver projects that leave a lasting impression.
+      </p>
+      <p>
+        In addition to my technical skills, I am always eager to stay up-to-date with the latest web development trends and tools. This allows me to leverage the most cutting-edge technologies and frameworks to deliver modern, future-proof solutions.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="images/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
         </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="images/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="images/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="images/expenseTracker.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-details">
+            The Expense Tracker project is a simple yet powerful tool designed to help individuals and businesses track their expenses efficiently.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-details">
+            The Netflix clone project is a web application that aims to replicate the core features of the popular streaming platform, Netflix.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            The Greeny Earth Website aimed at promoting sustainability and protecting the environment. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="images/twitter.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="images/github.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="images/icons8-instagram.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="images/icons8-linkedin-circled.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/jackkyjohn" target="_blank"
+          >Quyyum Lameed</a
+        >
+      </p>
     </footer>
+
+  </body>
+</html>
